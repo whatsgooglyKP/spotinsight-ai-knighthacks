@@ -1,0 +1,185 @@
+{
+  "champion_model": "Gradient Boosting",
+  "models_comparison": {
+    "Naive Majority": {
+      "accuracy": 0.9265,
+      "recall_major_liability": 0.0,
+      "precision_major_liability": 0.0,
+      "f1_score": 0.0,
+      "pr_auc": 0.0735,
+      "roc_auc": 0.5,
+      "confusion_matrix": [
+        [
+          63,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ]
+    },
+    "Logistic Regression Baseline": {
+      "accuracy": 0.8824,
+      "recall_major_liability": 0.2,
+      "precision_major_liability": 0.2,
+      "f1_score": 0.2,
+      "pr_auc": 0.2323,
+      "roc_auc": 0.7714,
+      "confusion_matrix": [
+        [
+          59,
+          4
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.8824,
+      "recall_major_liability": 0.2,
+      "precision_major_liability": 0.2,
+      "f1_score": 0.2,
+      "pr_auc": 0.3857,
+      "roc_auc": 0.9238,
+      "confusion_matrix": [
+        [
+          59,
+          4
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.9265,
+      "recall_major_liability": 0.6,
+      "precision_major_liability": 0.5,
+      "f1_score": 0.5455,
+      "pr_auc": 0.5894,
+      "roc_auc": 0.9429,
+      "confusion_matrix": [
+        [
+          60,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    },
+    "LightGBM Classifier": {
+      "accuracy": 0.8676,
+      "recall_major_liability": 0.2,
+      "precision_major_liability": 0.1667,
+      "f1_score": 0.1818,
+      "pr_auc": 0.2683,
+      "roc_auc": 0.8635,
+      "confusion_matrix": [
+        [
+          58,
+          5
+        ],
+        [
+          4,
+          1
+        ]
+      ]
+    }
+  },
+  "feature_importances_top15": [
+    {
+      "feature": "has_anomaly",
+      "importance": 0.4216
+    },
+    {
+      "feature": "asset_criticality_num",
+      "importance": 0.1355
+    },
+    {
+      "feature": "failure_type_clean_NONE",
+      "importance": 0.1121
+    },
+    {
+      "feature": "is_action_failed",
+      "importance": 0.0621
+    },
+    {
+      "feature": "battery_pct_imputed",
+      "importance": 0.044
+    },
+    {
+      "feature": "sequence_imputed",
+      "importance": 0.0303
+    },
+    {
+      "feature": "lidar_localization_drift",
+      "importance": 0.0283
+    },
+    {
+      "feature": "duration_sec_imputed",
+      "importance": 0.0276
+    },
+    {
+      "feature": "zone_type_ACCESS",
+      "importance": 0.0208
+    },
+    {
+      "feature": "corridor_kinetic_hazard_index",
+      "importance": 0.0153
+    },
+    {
+      "feature": "x_coord_imputed",
+      "importance": 0.0145
+    },
+    {
+      "feature": "lake_county_flood_zone_X",
+      "importance": 0.0142
+    },
+    {
+      "feature": "speed_limit_mph_imputed",
+      "importance": 0.0116
+    },
+    {
+      "feature": "failure_type_clean_SENSOR_TIMEOUT",
+      "importance": 0.0104
+    },
+    {
+      "feature": "battery_depletion_stress",
+      "importance": 0.0098
+    }
+  ],
+  "slice_performance_by_zone": {
+    "ACCESS": {
+      "count": 12,
+      "true_positives": 0,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    "PROCESS": {
+      "count": 25,
+      "true_positives": 1,
+      "recall": 0.3333,
+      "precision": 1.0
+    },
+    "MECHANICAL": {
+      "count": 21,
+      "true_positives": 1,
+      "recall": 1.0,
+      "precision": 0.5
+    },
+    "ELECTRICAL": {
+      "count": 10,
+      "true_positives": 1,
+      "recall": 1.0,
+      "precision": 0.5
+    }
+  },
+  "test_sample_size": 68,
+  "train_sample_size": 202
+}
