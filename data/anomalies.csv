@@ -1,0 +1,21 @@
+anomaly_id,action_id,mission_id,location_id,asset_id,timestamp,anomaly_type,severity,operator_review_required,description,synthetic
+AN001,A0141,M015,WP05,PANEL-203,2026-09-06T10:03:24,SIGNAL_DEGRADATION,LOW,False,Synthetic signal degradation detected.,True
+AN002,A0133,M014,WP06,HX-217,2026-09-06T02:07:48,GAUGE_OUT_OF_RANGE,HIGH,True,Synthetic gauge out of range detected.,True
+AN003,A0160,M016,WP09,PANEL-212,2026-09-06T18:26:00,VISUAL_DEFECT,HIGH,True,Synthetic visual defect detected.,True
+AN004,A0085,M009,WP11,HX-210,2026-09-04T10:12:30,VISUAL_DEFECT,HIGH,True,Synthetic visual defect detected.,True
+AN005,A0265,M027,WP02,HX-202,2026-09-10T10:12:30,ABNORMAL_VIBRATION,HIGH,True,Synthetic abnormal vibration detected.,True
+AN006,A0057,M006,WP03,HX-208,2026-09-03T10:21:42,VISUAL_DEFECT,MEDIUM,False,Synthetic visual defect detected.,True
+AN007,A0247,M025,WP11,HX-210,2026-09-09T18:12:36,ABNORMAL_TEMPERATURE,CRITICAL,True,Synthetic abnormal temperature detected.,True
+AN008,A0102,M011,WP04,COMP-214,2026-09-05T02:15:00,SIGNAL_DEGRADATION,MEDIUM,False,Synthetic signal degradation detected.,True
+AN009,A0180,M018,WP07,PANEL-218,2026-09-07T10:18:00,GAUGE_OUT_OF_RANGE,HIGH,True,Synthetic gauge out of range detected.,True
+AN010,A0215,M022,WP10,PUMP-205,2026-09-08T18:10:00,ABNORMAL_VIBRATION,MEDIUM,False,Synthetic abnormal vibration detected.,True
+AN011,A0230,M023,WP09,PANEL-211,2026-09-09T02:14:00,VISUAL_DEFECT,LOW,False,Synthetic visual defect detected.,True
+AN012,A0250,M025,WP13,HX-219,2026-09-09T18:20:00,ABNORMAL_TEMPERATURE,HIGH,True,Synthetic abnormal temperature detected.,True
+AN013,A0260,M026,WP15,HX-210,2026-09-10T02:16:00,SIGNAL_DEGRADATION,MEDIUM,False,Synthetic signal degradation detected.,True
+AN014,A0194,M020,WP07,HX-204,2026-09-08T02:08:00,ABNORMAL_TEMPERATURE,CRITICAL,True,Synthetic abnormal temperature detected.,True
+AN015,A0266,M027,WP13,HX-219,2026-09-10T10:15:00,SIGNAL_DEGRADATION,MEDIUM,False,Synthetic signal degradation detected.,True
+AN016,A0168,M017,WP03,HX-208,2026-09-07T02:24:48,GAUGE_OUT_OF_RANGE,LOW,False,Synthetic gauge out of range detected.,True
+AN017,A0200,M020,WP10,PUMP-205,2026-09-08T02:20:00,ABNORMAL_VIBRATION,MEDIUM,False,Synthetic abnormal vibration detected.,True
+AN018,A0076,M008,WP01,PANEL-215,2026-09-04T02:15:36,ABNORMAL_VIBRATION,MEDIUM,False,Synthetic abnormal vibration detected.,True
+AN019,A0029,M003,WP05,HX-204,2026-09-02T10:25:12,ABNORMAL_TEMPERATURE,LOW,False,Synthetic abnormal temperature detected.,True
+AN020,A0110,M011,WP08,MOTOR-206,2026-09-05T02:22:00,VISUAL_DEFECT,HIGH,True,Synthetic visual defect detected.,True
